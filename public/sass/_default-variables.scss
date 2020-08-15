@@ -1,0 +1,33 @@
+/**
+ * Default Variables.
+ *
+ * Modify this file to provide default Bootstrap Framework variables. The
+ * Bootstrap Framework will not override any variables defined here because it
+ * uses the `!default` flag which will only set their default if not already
+ * defined here.
+ *
+ * You can copy existing variables directly from the following file:
+ * ./THEMENAME/bootstrap/assets/stylesheets/_variables.scss
+ */
+
+// Set the proper directory for the Bootstrap Glyphicon font.
+$icon-font-path: '../bootstrap/assets/fonts/bootstrap/';
+
+
+// Padding between columns. Gets divided in half for the left and right.
+$grid-gutter-width:         0px !default;
+$gray-background:			rgba(128,128,128,0.3);
+$dark-gray:					#707070;
+$blue-background:			rgba(0,0,255,0.7);
+/*$orange-background:			rgba(255,69,0,0.8);*/
+/*$orange-light-background:	rgba(255,69,0,0.3);*/
+$gray-light-color:			#dadada;
+$uta-orange:				rgb(245,128,38);
+$uta-orange-light:			rgba(245,128,38,0.3);
+$uta-blue:					rgb(0,100,177);		
+$blue:						#00a9ff;
+$orange:					#fabb0c;
+$green:						#a2c902;
+$orange-red:				#A80000 ;
+$dark-orange:				#dd550c;
+

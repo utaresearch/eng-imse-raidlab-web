@@ -1,0 +1,628 @@
+body {
+	/*background-image: url(../img/rfid_background3.jpg);
+	background-repeat: repeat;*/
+	font-size: 16px;
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: Oswald,"Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333333;
+}
+
+.header{
+	width:80%;
+	margin:1em auto;
+	background-color: $uta-blue;
+    background-image: linear-gradient(25deg, rgba(255,255,255,0.4), $uta-blue);
+    border-radius: 5px;
+}
+
+.navbar-default {
+    background-color: $uta-orange;
+    border-color: transparent;
+	width:80%;
+	margin:1em auto;
+}
+
+.logo img{
+	width: 100%;
+	padding: 10px;
+}
+.site img{
+	width: 100%;
+	margin-top:10px;
+	padding: 10px;
+}
+.slideshow, .marketing, .content{
+	padding-top: 10px;
+}
+#myCarousel{
+	margin-top: 1em;
+	& .carousel-indicators{
+		& li{
+			background-color: black;
+		}
+	} 
+}
+.sticky {
+  position: fixed;
+  width: 80%;
+  margin: 1em 10%;
+  top: 0;
+  z-index: 1000;
+  background-color: $uta-orange;
+}
+.carousel {
+	width: 99%;
+	margin: auto;
+	border: 1.5px solid $gray-light-color;
+    border-radius: 5px;
+}
+
+.container{
+	background-color: #fff;
+	width: 80%;
+	/*border: 1px solid $gray-light-color;
+	border-radius: 5px;*/
+}
+
+.panel-grid{
+	border: 1.5px solid #e5e5e5;
+	padding: 30px;
+    /*height: 15em;*/
+    border-radius: 5px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    color: #3b3b3b;
+}
+.btn-default{
+	background-color: $gray-light-color;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.blog-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    & h1{
+    	/*border-bottom: 1.5px dotted $gray-light-color;*/
+    	border-bottom: 1.5px ridge #999;
+    	padding-bottom: 0.5em;
+    }
+}
+
+.blog-title {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.blog-description {
+    font-size: 20px;
+    color: #F8F8F8;
+    text-align: justify;
+    text-align-last: center;
+    /*background-color: rgba(0,0,0,0.1);*/
+}
+
+.blog-main{
+	padding: 0 20px;
+}
+
+.blog-sidebar{
+	padding-right: 15px;
+}
+.blog-bg{
+	background: url(../img/faculty/Dr_Eric_Jones.jpg) no-repeat center;
+    background-size:100%;
+    height:135vh;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+.blog-above-text{
+	position:absolute;
+	bottom:0;
+	padding:5em;
+	/*margin-right: 20px;
+	margin-bottom: 20px;*/
+}
+.blog-motto{
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+
+.sidebar-module-inset {
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    float: left;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    /*height: 60px;*/
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #0f3367;
+    border-radius: 5px;
+    /*border-bottom-right-radius: 5px;*/
+}
+.rteright {
+    text-align: right;
+    color:#8aa6d0;
+    & a {
+    	color:#8aa6d0;
+    	text-decoration: none;
+    	&:hover,&:active,&:focus{
+    		color:#a11300;
+    	}
+    }
+}
+
+#breadcrumb-wrapper {
+    border-top: 1px ridge #999	;
+    font-size: .92em;
+    margin: 15px;
+    padding: 15px 0px 0px 10px;
+    position: relative;
+    & a.btn-btt {
+    	background: #8aa6d0;
+    	color: #3D3D3D;
+    	float: right;
+    	line-height: normal;
+    	padding: 3px 10px;
+    	border-radius: 5px;
+    	text-decoration: none;
+    	&:hover,&:active,&:focus {
+    		background: #a11300;
+    		color: #fff;
+    	}
+    }
+}
+
+.innergrid{
+    border-top: 1px ridge #999;
+    margin: 0 10px;
+    padding: 15px 0;
+}
+
+.jumbotron{
+	width:50%;
+	margin: auto;
+	height: 10em;
+	margin-top: 1em;
+	text-align: center;
+	& h1{
+		margin:auto;
+	}
+}
+
+.service-group {
+	padding: 0 20px;
+	& h2{
+		text-align: center;
+	}
+	& p{
+		text-align: justify;
+		text-align-last: center;
+	} 
+}
+.group-row{
+	border-bottom: 1.5px dotted $gray-light-color;
+	&:last-child{ 
+		border-bottom: none; 
+	}
+}
+.project-group{
+	padding:10px 20px 0px 20px;
+	border-bottom: 1.5px dotted $gray-light-color;
+	&:last-child{ 
+		border-bottom: none; 
+	}
+}
+
+.tabs-journal{
+	& h3{
+		margin-left: 1em;
+	}
+}
+.publications-tab-group{
+	padding-left: 20px;
+	float: left;
+}
+.publications-desc-group{
+	padding-right: 20px;
+	float:right;
+	& li{
+		border-bottom: 1px dotted $gray-light-color;
+		padding: 1em 0;
+	}
+	& li:last-child{
+		border-bottom: none;
+		padding: 1em 0;
+	}
+}
+
+.gs-year{
+	text-align: center;
+	color: $uta-orange;
+}
+
+div.gs-grid{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.gs-grid{
+	border: 1px solid $gray-light-color;
+    border-radius:5px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    & a {
+    	text-decoration: none;
+    	&:hover,&:active,&:focus{
+    		color:$uta-blue;
+    	}
+    }
+    /*height:25em;*/
+}
+
+.lab-grid{
+	border: 1px solid $gray-light-color;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius:5px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.gs-row{
+    padding: 0 20px;
+}
+
+.grid-main{
+	display: block;
+  margin: 15px auto;
+}
+
+.centerBlock {
+  display: table;
+  margin: auto;
+}
+
+.blue {
+	color: $blue;
+}
+
+.orange-red {
+	color: $orange-red;
+}
+
+.green {
+	color: $green;
+}
+
+.orange {
+	color: $orange;
+}
+
+.dark-orange{
+	color:$dark-orange;
+}
+
+.faculty-group,.student-group{
+	border-bottom: 1px dotted $gray-light-color;
+	padding-bottom: 1em;
+}
+.faculty-col-img, .student-col-img{
+	padding: 20px;
+	text-align: center;
+	float: left;
+}
+.faculty-col-desc, .student-col-desc{
+	padding: 20px;
+	text-align: center;
+}
+.faculty-col-info, .student-col-info{
+	padding: 20px;
+	margin-top: 1em;
+}
+
+
+/* -------------------- SUPERFISH MENUS -------------------- */
+
+.sf-menu {
+	float: none;
+	margin-bottom: 0;
+	& .dropdown-header {
+		background: gray;
+		color: white;
+		text-transform: uppercase;
+		font-family: Oswald;
+	}
+}
+.sf-menu li.dropdown-header:hover{
+	background: gray;
+	color: white;
+	text-transform: uppercase;
+	font-family: Oswald;
+}
+
+.sf-menu ul {
+	width: 100%;
+	background-color: $uta-orange;
+	-webkit-border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 3px 3px;
+}
+
+.sf-menu ul li {
+	background-color: $uta-orange-light;
+	width: 100%;
+	text-align: center;
+	/*-webkit-border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 3px 3px;*/
+
+}
+
+
+.round-top-corners {
+	-webkit-border-radius: 3px 3px 0px 0px ;
+	border-radius: 3px 3px 0px 0px;
+}
+
+.round-bottom-corners {
+	-webkit-border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 3px 3px;
+}
+
+.sf-menu li {
+	background: none;
+	width: 14.285%;
+	text-align: center;	
+	white-space:normal;
+}
+.sf-menu ul {
+	min-width: 0;
+}
+
+.sf-menu a {
+	color: #FFF;
+	border: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Oswald;
+}
+
+.sf-menu li:hover,
+.sf-menu li.sfHover {
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMC4zIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.01) 0%, rgba(255,255,255,0.3) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.01)), color-stop(100%,rgba(255,255,255,0.3))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.01) 0%,rgba(255,255,255,0.3) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0.01) 0%,rgba(255,255,255,0.3) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0.01) 0%,rgba(255,255,255,0.3) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.01) 0%,rgba(255,255,255,0.3) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03000000', endColorstr='#4dffffff',GradientType=0 ); /* IE6-8 */
+/* only transition out, not in */
+	-webkit-transition: none;
+	transition: none;
+}
+
+/*-------------------Publications Page--------------------*/
+
+.ui-tabs-vertical {
+	width: 100%;
+	& .ui-tabs-nav {
+		/*width: 31.25%;*/
+		/*margin: 0 1.041666666667%;*/
+		margin:auto;
+		/*float: left;*/
+		& li {
+			clear: left;
+			width: 90%;
+			border-bottom-width: 1px !important;
+			border-right-width: 0 !important;
+			margin: 0 -1px .2em 0;
+			& a{
+				display:block;
+				text-decoration: none;
+			}
+			&.ui-tabs-active {
+				padding-bottom: 0;
+				padding-right: .1em;
+				border-right-width: 1px;
+				border-right-width: 1px;
+			}
+		}
+	}
+	& .ui-tabs-panel {
+		/*width: 64.583333333333%;*/
+		/*margin: 0 1.041666666667%;*/
+		margin: auto;
+		float: left;
+	}
+}
+
+.ui-tabs-active {
+	text-indent: 5px;
+	background-color: #333;
+	& a{
+		color: #FFF;
+		text-decoration: none;
+	}
+}
+
+/*-------------------Books Page--------------------*/
+
+.books-section {
+	margin-bottom: 40px;
+}
+
+.books-section img {
+	margin-bottom: 20px;
+}
+
+.books-section img:last-child {
+	margin-bottom: 0;
+}
+
+.books-section .image-column {
+	width: 31.25%;
+	margin: 0 1.041666666667%;
+	float: left;
+	text-align: center;
+}
+
+.books-section .text-column {
+	width: 64.583333333333%;
+	margin: 0 1.041666666667%;
+	float: left;
+}
+
+/*-------------------Sponsors----------------------*/
+.sponsors-group, .about-group, .book-group{
+	padding:20px;
+	border-bottom: 1.5px dotted $gray-light-color;
+	&:last-child{ 
+		border-bottom: none; 
+	}
+}
+.about-logo{
+	border: 1px solid $gray-light-color;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:5px;
+    background-color: linear-gradient(25deg, rgba(255,255,255,0.4), $uta-blue);
+
+}
+
+img.sponsors-ad{
+	height:100%;
+	width:100%;
+	padding:10px;
+}
+
+img.about-logo{
+	height:20em;
+	width:100%;
+	padding:10px;
+}
+
+img.sponsor-pic {
+	margin-bottom: 20px;
+}
+
+p.sponsor-blurb {
+	font-style:italic;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 12px;
+	
+}
+p.book-blurb {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 12px;
+	
+}
+#hamburger {
+      display: none;
+      cursor: pointer;
+      text-align: center;
+      line-height: 46px;
+      color: #dddddd; 
+  }
+
+@media screen and (max-width: 767px) {
+	#hamburger {
+		display: block; 
+	}
+	nav ul {
+		display: none;
+		margin: 7px 0;
+		padding: 0; 
+	}
+	.sf-menu li {
+	width: 30%;
+	}
+	.blog-bg{
+		background-size: unset;
+		height: unset;
+	}
+	.blog-above-text {
+		position: unset; 
+		padding:0;
+    }
+}
+
+/*For small devices with width >= than 768px and < than 992px*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.blog-bg{
+		background-size: unset;
+		height: unset;
+	}
+	.blog-above-text {
+		position: unset; 
+		padding:0;
+    }
+     #hamburger {
+		display: none; 
+	}
+	nav ul {
+		display: block;
+		margin: 7px 0;
+		padding: 0; 
+	}
+	nav ul li {
+		width: 100%;
+        }
+}
+/*For medium devices with width >= than 992px and < than 1200px*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.blog-bg{
+		background-size: unset;
+		height: unset;
+	}
+	.blog-above-text {
+		position: unset; 
+    }
+}
+@media (min-width: 768px) and ( max-width: 1199px){
+	 #hamburger {
+		display: none; 
+	}
+	nav ul {
+		display: block;
+		margin: 7px 0;
+		padding: 0; 
+	}
+	nav ul li {
+		width: 100%;
+        }
+}
+@media screen and ( max-width: 1024px){
+	.jumbotron h1{
+		font-size: 45px;
+	}
+	.sticky{
+		margin:1em 10%;
+	}
+}
