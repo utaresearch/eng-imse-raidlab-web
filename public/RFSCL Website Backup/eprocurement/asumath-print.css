@@ -1,0 +1,273 @@
+BODY {
+	COLOR: black
+}
+.subheader {
+	COLOR: black
+}
+TD.main-copyy {
+	COLOR: black
+}
+TD#main-copyy H1 {
+	COLOR: black
+}
+TD#main-copyy A:hover {
+	COLOR: black
+}
+#footer {
+	COLOR: black
+}
+.headerTitle SPAN {
+	COLOR: white
+}
+.subHeader A {
+	COLOR: white
+}
+.subHeader A:hover {
+	COLOR: rgb(202,204,202); BACKGROUND-COLOR: rgb(5,3,5)
+}
+TD.lleftSideBar .sideBarTitle {
+	COLOR: rgb(64,64,64)
+}
+TD.lleftSideBar .thisPage {
+	COLOR: rgb(64,64,64)
+}
+.rightbox .sideboxtitle {
+	COLOR: rgb(64,64,64)
+}
+TD.lleftSideBar A {
+	COLOR: rgb(30,8,14)
+}
+TD.lleftSideBar A:hover {
+	COLOR: rgb(132,33,57)
+}
+#nav LI UL A:hover {
+	COLOR: rgb(132,33,57)
+}
+TD.lleftSideBar .sideBarText {
+	COLOR: rgb(60,60,110)
+}
+TD#main-copyy A {
+	COLOR: rgb(132,33,57)
+}
+BODY {
+	BACKGROUND-COLOR: white
+}
+TD.main-copyy {
+	BACKGROUND-COLOR: white
+}
+.clasheader {
+	BACKGROUND-COLOR: white
+}
+#nav LI UL {
+	BACKGROUND-COLOR: black
+}
+.wrapHeader {
+	BACKGROUND-COLOR: rgb(132,33,57)
+}
+.subheader {
+	BACKGROUND-COLOR: rgb(132,33,57)
+}
+.subheader A {
+	BACKGROUND-COLOR: rgb(132,33,57)
+}
+#nav LI UL A {
+	BACKGROUND-COLOR: rgb(132,33,57)
+}
+#nav LI UL A {
+	COLOR: rgb(5,3,5); BACKGROUND-COLOR: rgb(202,204,202)
+}
+#nav LI UL A:hover {
+	COLOR: rgb(202,204,202); BACKGROUND-COLOR: rgb(132,33,57)
+}
+TD.lleftSideBar {
+	BACKGROUND-COLOR: rgb(230,230,230)
+}
+TD.lleftSideBar .sideBarTitle {
+	BACKGROUND-COLOR: rgb(180,180,180)
+}
+.rightbox .sideboxtitle {
+	BACKGROUND-COLOR: rgb(180,180,180)
+}
+#footer {
+	BACKGROUND-COLOR: rgb(180,180,180)
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 73%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: verdana, helvetica, arial, sans-serif
+}
+UNKNOWN {
+	FONT-SIZE: 9pt
+}
+ACRONYM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: help; PADDING-TOP: 0px; BORDER-BOTTOM: rgb(168,140,83) 1px dotted
+}
+.titleTip {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: help; PADDING-TOP: 0px; BORDER-BOTTOM: rgb(168,140,83) 1px dotted
+}
+.doNotDisplay {
+	DISPLAY: none! important
+}
+.smallCaps {
+	FONT-SIZE: 117%; FONT-VARIANT: small-caps
+}
+.dropcap {
+	FONT-SIZE: 340%; FLOAT: left; MARGIN-BOTTOM: -0.25em; LINE-HEIGHT: 0.9em; MARGIN-RIGHT: 0.05em; FONT-FAMILY: Old English, Georgia,serif
+}
+.newsdate {
+	FONT-WEIGHT: bold
+}
+.wrapHeader {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 100%; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 1.8em
+}
+.subHeader {
+	DISPLAY: none; FONT-SIZE: 100%; MARGIN: 0px auto; WIDTH: 61em; TEXT-ALIGN: center
+}
+.subHeader A {
+	FONT-WEIGHT: bold; MARGIN: 0px; TEXT-DECORATION: none
+}
+.rightbox {
+	BORDER-RIGHT: rgb(180,180,180) 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: rgb(180,180,180) 1px solid; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 1em 0px 0px 1em; BORDER-LEFT: rgb(180,180,180) 1px solid; WIDTH: 17em; PADDING-TOP: 0px; BORDER-BOTTOM: rgb(180,180,180) 1px solid
+}
+.rightbox .sideboxtitle {
+	PADDING-RIGHT: 1ex; PADDING-LEFT: 1ex; FONT-WEIGHT: bold; PADDING-BOTTOM: 0.8ex; MARGIN: 0px; PADDING-TOP: 0.8ex; TEXT-ALIGN: center
+}
+.rightbox .sideboxtext {
+	PADDING-RIGHT: 0.75em; PADDING-LEFT: 0.75em; PADDING-BOTTOM: 0.2em; MARGIN: 1em 0px 0px; PADDING-TOP: 0.2em
+}
+TD.lleftSideBar {
+	BORDER-TOP-WIDTH: 0px; DISPLAY: none; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; VERTICAL-ALIGN: top; WIDTH: 12.5em; BORDER-RIGHT-WIDTH: 0px
+}
+TD.p {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+TD.lleftSideBar .sideBarTitle {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 1ex; PADDING-LEFT: 1ex; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0.8ex; MARGIN: 0px; PADDING-TOP: 0.8ex; BORDER-RIGHT-WIDTH: 0px
+}
+TD.lleftSideBar UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LIST-STYLE-POSITION: outside; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 1em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+TD.lleftSideBar LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0.75ex; PADDING-BOTTOM: 1.15ex; MARGIN: 1ex; PADDING-TOP: 0px
+}
+TD.lleftSideBar LI LI {
+	PADDING-BOTTOM: 0.7ex
+}
+TD.lleftSideBar UL UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px 0px 1em; PADDING-TOP: 0px
+}
+TD.lleftSideBar UL UL LI {
+	MARGIN: 0px
+}
+TD.lleftSideBar A {
+	BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+TD.lleftSideBar A:hover {
+	BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+TD.lleftSideBar .sideBarText {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 1.25em; PADDING-TOP: 0px; BACKGROUND-COLOR: transparent
+}
+TD.lleftSideBar .sideBarText A {
+	TEXT-DECORATION: underline
+}
+TD.lleftSideBar .sideBarText A:hover {
+	TEXT-DECORATION: none
+}
+TD.lleftSideBar .thisPage {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: transparent
+}
+TD#main-copyy {
+	PADDING-RIGHT: 3em; PADDING-LEFT: 1em; PADDING-BOTTOM: 1em; MARGIN: 0px; VERTICAL-ALIGN: top; BORDER-LEFT: rgb(180,180,180) 1px solid; LINE-HEIGHT: 1.25em; PADDING-TOP: 0.5ex; TEXT-ALIGN: justify
+}
+TD#main-copyy H1 {
+	PADDING-RIGHT: 0px; BORDER-TOP: rgb(216,210,195) 1px solid; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 185%; PADDING-BOTTOM: 0px; MARGIN: 1em 0px 0px; PADDING-TOP: 1em; FONT-STYLE: italic; FONT-FAMILY: arial, verdana, helvetica, sans-serif; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+TD#main-copyy H1#first {
+	BORDER-TOP-STYLE: none; PADDING-TOP: 0px
+}
+TD#main-copyy A {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+TD#main-copyy UL.linkli {
+	TEXT-INDENT: -1.5em; LIST-STYLE-TYPE: none
+}
+TD#main-copyy UL.linkli A {
+	FONT-WEIGHT: bold; FONT-SIZE: 110%
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1em 0px 1.5em; PADDING-TOP: 0px
+}
+DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0.5ex; MARGIN: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 1.5em 1.5em; PADDING-TOP: 0px
+}
+#footer {
+	CLEAR: both; DISPLAY: none; FONT-SIZE: 92%; MARGIN: 0px
+}
+#footer DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1ex; MARGIN: 0px; PADDING-TOP: 0px
+}
+#footer A {
+	FONT-WEIGHT: bold; COLOR: black; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+#footer A:hover {
+	TEXT-DECORATION: none
+}
+#nav {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; LINE-HEIGHT: 1; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; TEXT-ALIGN: left
+}
+#nav UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; LINE-HEIGHT: 1; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; TEXT-ALIGN: left
+}
+#nav A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 10em; PADDING-TOP: 0px
+}
+#nav LI {
+	FLOAT: left; WIDTH: 10em
+}
+#nav LI A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.4em; BORDER-LEFT: white 1px solid; PADDING-TOP: 0.4em; TEXT-ALIGN: center
+}
+#nav LI#firstmenu A {
+	BORDER-LEFT-WIDTH: 0px
+}
+#nav LI UL {
+	LEFT: -999em; MARGIN: 0px; WIDTH: 10em; POSITION: absolute; TEXT-ALIGN: left
+}
+#nav LI UL A {
+	PADDING-RIGHT: 0.4em; PADDING-LEFT: 0.4em; FONT-WEIGHT: 100; PADDING-BOTTOM: 0.3em; WIDTH: 9.2em; PADDING-TOP: 0.3em; TEXT-ALIGN: left
+}
+#nav LI LI {
+	BORDER-RIGHT: black 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: black 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: black 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: black 0px solid; TEXT-ALIGN: left
+}
+#nav LI LI#topone {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#nav LI:hover UL {
+	LEFT: auto
+}
+#nav LI.sfhover UL {
+	LEFT: auto
+}
+.clasheader {
+	TEXT-ALIGN: left
+}
+.cleardiv {
+	CLEAR: both; LINE-HEIGHT: 0
+}
+.deptheader {
+	PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 2px
+}
+.deptheader A {
+	FONT-WEIGHT: bold; FONT-SIZE: 200%; FONT-FAMILY: Garamond, Georgia, Verdana, Sans Serif; TEXT-DECORATION: none
+}
+TABLE.offhours {
+	BORDER-COLLAPSE: collapse
+}
+TABLE.offhours TD {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; PADDING-LEFT: 0.3em; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid; TEXT-ALIGN: left
+}
+TABLE.offhours TH {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; PADDING-LEFT: 0.3em; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid; TEXT-ALIGN: left
+}

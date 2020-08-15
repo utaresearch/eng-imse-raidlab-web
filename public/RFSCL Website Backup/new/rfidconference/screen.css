@@ -1,0 +1,9 @@
+body  { font-size: 10pt; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif }
+p  { font-size: 10pt; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif }
+td  { font-size: 10pt; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif }
+h1  { color: #01447b; font-size: 12pt; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; font-weight: bold }
+h2 { color: #fff; font-size: 12pt; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; font-weight: bold }
+a:link { color: #01447b; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; text-decoration: none }
+a:visited { color: #4d6490; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; text-decoration: none }
+a:hover { color: #aa2025; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; text-decoration: none }
+a:active { color: #01447b; font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif; text-decoration: none }

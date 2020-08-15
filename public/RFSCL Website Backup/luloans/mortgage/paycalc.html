@@ -1,0 +1,826 @@
+<html>
+
+
+
+
+
+
+
+<head>
+
+
+
+<title>Payment Calculator</title>
+
+
+
+<meta name="description" content="Texas home loans, refinance, home mortgages, rates, mortgage loans, and finance for Houston Texas.">
+
+
+
+<meta name="keywords" content="Texas, home loans, refinance, home mortgages, rates, mortgage loans, finance, Houston">
+
+
+
+<SCRIPT language=JavaScript>
+
+
+
+<!--
+
+
+
+function MyCheckEnteredValue(element) {
+
+
+
+	var lField = ltrim(rtrim(String(element.value)));
+
+
+
+    myReg=new RegExp("^[$]?[0-9]*\\.?[0-9]*$"); 
+
+
+
+	if (!(myReg.test(lField) && lField!='.' && lField!='$')) {
+
+
+
+		alert("Only numeric values are allowed!");
+
+
+
+		element.focus();
+
+
+
+		element.select();
+
+
+
+		return false;
+
+
+
+	}
+
+
+
+	return true;
+
+
+
+}
+
+
+
+
+
+
+
+function MyCheckEnteredValuePercent(element) {
+
+
+
+	var lField = ltrim(rtrim(String(element.value)));
+
+
+
+    myReg=new RegExp("^[0-9]*\\.?[0-9]*?$"); 
+
+
+
+	if (!(myReg.test(lField) && lField!='.' )) {
+
+
+
+		alert("Only numeric values are allowed ");
+
+
+
+		return false;
+
+
+
+	}
+
+
+
+
+
+
+
+	//100% test
+
+
+
+	if (parseFloat(lField)>100) {
+
+
+
+		alert("Percentage values must be between 0 and 100!")
+
+
+
+		return false;
+
+
+
+	}
+
+
+
+	return true;
+
+
+
+}
+
+
+
+
+
+
+
+function rtrim(argvalue) {
+
+
+
+  while (1) {
+
+
+
+    if (argvalue.substring(argvalue.length - 1, argvalue.length) != " ")
+
+
+
+      break;
+
+
+
+    argvalue = argvalue.substring(0, argvalue.length - 1);
+
+
+
+  }
+
+
+
+  return argvalue;
+
+
+
+}
+
+
+
+
+
+
+
+function ltrim(argvalue) {
+
+
+
+  while (1) {
+
+
+
+    if (argvalue.substring(0, 1) != " ")
+
+
+
+      break;
+
+
+
+    argvalue = argvalue.substring(1, argvalue.length);
+
+
+
+  }
+
+
+
+    return argvalue;
+
+
+
+}
+
+
+
+
+
+
+
+function round(number)
+
+
+
+{
+
+
+
+  return Math.round(number*Math.pow(10,2))/Math.pow(10,2);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function dosum()
+
+
+
+{   frm = document.temps;
+
+
+
+	var mi = frm.IR.value / 1200;  
+
+
+
+	var counter = 1;  
+
+
+
+	var mcounter = 1 + mi;  
+
+
+
+	for (i=0; i<frm.YR.value * 12; i++)  
+
+
+
+	{   
+
+
+
+		counter = counter * mcounter  
+
+
+
+	}  
+
+
+
+	frm.PI.value = round(frm.LA.value * mi / ( 1 - (1/counter)))  
+
+
+
+	frm.MT.value = round(frm.AT.value / 12)  
+
+
+
+	frm.MI.value = round(frm.AI.value / 12)  
+
+
+
+	var dasum = frm.LA.value * mi / ( 1 - (1/counter)) + frm.AT.value / 12 + frm.AI.value / 12;
+
+
+
+    frm.MP.value = round(dasum);
+
+
+
+}
+
+
+
+// -->
+
+
+
+</SCRIPT>
+
+
+
+
+
+
+
+<script language="JavaScript" fptype="dynamicanimation">
+
+
+
+<!--
+
+
+
+function dynAnimation() {}
+
+
+
+function clickSwapImg() {}
+
+
+
+
+
+
+
+function MM_swapImgRestore() { //v3.0
+
+
+
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+
+
+
+}
+
+
+
+
+
+
+
+function MM_preloadImages() { //v3.0
+
+
+
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+
+
+
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+
+
+
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+
+
+
+}
+
+
+
+
+
+
+
+function MM_findObj(n, d) { //v4.0
+
+
+
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+
+
+
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+
+
+
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+
+
+
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+
+
+
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+
+
+
+}
+
+
+
+
+
+
+
+function MM_swapImage() { //v3.0
+
+
+
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+
+
+
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+
+
+
+}
+
+
+
+//-->
+
+
+
+</script>
+
+
+
+<script language="JavaScript1.2" fptype="dynamicanimation" src="file:///D|/Website/luloans/animate.js">
+
+
+
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link href="../images/mm_health_nutr.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style16 {
+	color: #FFFFFF;
+	font-size: 11px;
+}
+.style17 {font-size: 11px}
+.style18 {color: #FFFFFF}
+.style20 {font-family: Arial, Helvetica, sans-serif}
+-->
+</style>
+</head>
+
+
+
+
+
+
+
+<body onLoad="dynAnimation();MM_preloadImages('file:///D|/Website/luloans/images/BUTTONS_01_f2.gif','file:///D|/Website/luloans/images/BUTTONS_02_f2.gif','file:///D|/Website/luloans/images/BUTTONS_03_f2.gif','file:///D|/Website/luloans/images/BUTTONS_04_f2.gif','file:///D|/Website/luloans/images/BUTTONS_05_f2.gif','file:///D|/Website/luloans/images/BUTTONS_06_f2.gif','file:///D|/Website/luloans/images/BUTTONS_07_f2.gif','file:///D|/Website/luloans/images/BUTTONS_08_f2.gif','file:///D|/Website/luloans/images/BUTTONS_09_f2.gif','file:///D|/Website/luloans/images/BUTTONS_10_f2.gif')">
+
+
+
+<center>
+
+
+
+<div class="div">
+
+
+
+<table width="500" height="439" align="center" bgcolor="#000000">
+
+
+
+  <tr> 
+
+
+
+    <center>
+      </center>
+
+
+
+        <td width="658" height="269" valign="top" bgcolor="#5C743D" style="padding:10px"><hr size="1" color="#CCCCCC" width="100%">
+
+
+
+          <p class="style20 style17 style16 style15 bodyText"><strong><u>Payment Calculalor </u> </strong></p>
+          <FORM name=temps>
+
+
+
+            <p><span class="bodyText style15 style16 style17 style20"><span class="bodyText style15 style17 style18"><span class="bodyText style15 style18"><span class="bodyText style15 style18"><span class="bodyText style15  style18">Use our mortgage calculator to determine your monthly payment amount. Estimate 
+              
+              
+              
+              your taxes and insurance so that these amounts will be included in the payment 
+              
+              
+              
+              calculation. Enter amounts in the fields below and the mortgage calculator will 
+              
+              
+              
+              give you your monthly mortgage payment amount!</span></span></span></span></span><span class="style16"><FONT face=Arial><BR>
+              
+              
+              
+              </font></span><FONT face=Arial size=2><SPAN class=basic><BR>
+              
+              
+              
+              </SPAN> 
+              
+              
+              
+              </font></p>
+            <FONT face=Arial size=2>
+            <DIV>
+
+
+
+              <TABLE width=414 
+
+
+
+border=0 align="center" cellPadding=1  cellSpacing=1 bgColor=#cccccc>
+
+
+
+                <TBODY> 
+
+
+
+                <TR bgColor=#efefe9>
+
+
+
+    <TD colSpan=2 bgcolor="#FFFFFF" class="bodyText">
+
+
+
+      <P class=basic style12><B>Mortgage Calculator</B> </P></TD>
+                </TR>
+
+
+
+  <TR>
+
+
+
+                  <TD width="40%" align=left bgColor=#FFFFFF class=bodyText>Mortgage Length</TD>
+
+
+
+                  <TD width="60%" bgColor=#FFFFFF class=bodyText>
+
+
+
+<input 
+
+
+
+      name=YR 
+
+
+
+      onChange="if (MyCheckEnteredValue(temps.YR)) dosum()" value=30 size=4> 
+Years </TD>
+  </TR>
+
+
+
+  <TR>
+
+
+
+                  <TD width="40%" align=left bgColor=#FFFFFF class=bodyText>Interest</TD>
+
+
+
+                  <TD width="60%" bgColor=#FFFFFF class=bodyText>
+
+
+
+<INPUT name=IR 
+
+
+
+      onchange="if (MyCheckEnteredValuePercent(temps.IR)) dosum()" 
+
+
+
+      value=7.0 size=4> % </TD>
+  </TR>
+
+
+
+  <TR>
+
+
+
+                  <TD width="40%" align=left bgColor=#FFFFFF class=bodyText>Loan Amount</TD>
+
+
+
+                  <TD class=bodyText bgColor=#FFFFFF width="60%">
+
+
+
+<INPUT 
+
+
+
+      name=LA 
+
+
+
+      onchange="if (MyCheckEnteredValue(temps.LA)) dosum()" value=100000 size=10> </TD>
+  </TR>
+
+
+
+  <TR>
+
+
+
+                  <TD width="40%" align=left bgColor=#FFFFFF class=bodyText>Annual Tax</TD>
+
+
+
+                  <TD class=bodyText bgColor=#FFFFFF width="60%">
+
+
+
+<INPUT 
+
+
+
+      name=AT 
+
+
+
+      onchange="if (MyCheckEnteredValue(temps.AT)) dosum()" value=1000 size=10> </TD>
+  </TR>
+
+
+
+  <TR>
+
+
+
+                  <TD width="40%" align=left bgColor=#FFFFFF class=bodyText>Annual Insurance</TD>
+
+
+
+                  <TD class=bodyText bgColor=#FFFFFF width="60%">
+
+
+
+<INPUT 
+
+
+
+      name=AI onchange=dosum() value=300 size=10> </TD>
+  </TR>
+
+
+
+  <TR>
+
+
+
+                  <TD width="40%" align=left bgColor=#FFFFFF class="bodyText"></TD>
+
+
+
+                  <TD width="60%" bgColor=#FFFFFF class=bodyText>
+
+
+
+<INPUT name=BUTTON type=button onclick=dosum() value=Calculate> 
+
+
+
+      &nbsp; <INPUT name=cmdReset type=reset value=Reset> </TD>
+  </TR>
+
+
+
+  <TR bgColor=#efefe9>
+
+
+
+    <TD colSpan=2 bgcolor="#FFFFFF" class="bodyText">
+
+
+
+      <P class=basic style12><B>Mortgage Calculation Results</B> </P></TD>
+  </TR>
+
+
+
+  <TR>
+
+
+
+                  <TD width="40%" align=left bgColor=#FFFFFF class=bodyText>Monthly Principal + 
+
+
+
+                    Interest</TD>
+
+
+
+                  <TD class=bodyText bgColor=#FFFFFF width="60%">
+
+
+
+<INPUT name=PI class="style13" size=10> </TD>
+  </TR>
+
+
+
+  <TR>
+
+
+
+                  <TD width="40%" align=left bgColor=#FFFFFF class=bodyText>Monthly Tax</TD>
+
+
+
+                  <TD class=bodyText bgColor=#FFFFFF width="60%">
+
+
+
+<INPUT name=MT class="style13" size=10> </TD>
+  </TR>
+
+
+
+  <TR>
+
+
+
+                  <TD width="40%" align=left bgColor=#FFFFFF class=bodyText>Monthly Ins</TD>
+
+
+
+                  <TD class=bodyText bgColor=#FFFFFF width="60%">
+
+
+
+<INPUT name=MI class="style13" size=10> </TD>
+  </TR>
+
+
+
+  <TR>
+
+
+
+                  <TD class=bodyText align=left bgColor=#FFFFFF width="40%"><B>Total Monthly Payment</B></TD>
+
+
+
+                  <TD class=bodyText bgColor=#FFFFFF width="60%">
+
+
+
+<INPUT name=MP class="style13" size=10> </TD>
+  </TR>
+
+
+
+  <TR bgColor=#ffffff>
+
+
+
+    <TD colSpan=2 align=left bgcolor="#FFFFFF" class=bodyText>DISCLAIMER: The 
+
+
+
+      figures above are based upon conventional program guidelines. Other loan 
+
+
+
+      programs are available. Calculations by this tool are believed to be 
+
+
+
+      accurate, yet are not guaranteed. Further review is necessary to obtain an 
+
+
+
+      exact qualification. If you have less than 20% equity in your home, a 
+
+
+
+      monthly mortgage insurance payment may be required.</TD>
+  </TR>
+                </TBODY></TABLE>
+            </DIV>
+            </font>
+        </FORM>        </td>
+  </tr>
+</table>
+
+
+
+</div>
+
+
+
+</center>
+
+
+
+</body>
+
+
+
+</html>
+
+
+

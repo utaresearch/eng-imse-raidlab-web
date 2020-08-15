@@ -1,0 +1,130 @@
+@import url( layout.css );
+HTML {
+	MARGIN-BOTTOM: 1px; VERTICAL-ALIGN: top; LINE-HEIGHT: 110%; HEIGHT: 100%
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 80%; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; HEIGHT: 100%; BACKGROUND-COLOR: #006625; TEXT-ALIGN: left
+}
+HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 160%; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #006633; LINE-HEIGHT: 150%; PADDING-TOP: 0px; FONT-FAMILY: Arial, Verdana, Geneva, Helvetica, sans-serif
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 130%; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 150%; PADDING-TOP: 0px; FONT-FAMILY: Arial, Verdana, Geneva, Helvetica, sans-serif
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 110%; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 150%; PADDING-TOP: 0px; FONT-FAMILY: Arial, Verdana, Geneva, Helvetica, sans-serif
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 105%; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 150%; PADDING-TOP: 0px; FONT-FAMILY: Arial, Verdana, Geneva, Helvetica, sans-serif
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 100%; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 150%; PADDING-TOP: 0px; FONT-FAMILY: Arial, Verdana, Geneva, Helvetica, sans-serif
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 90%; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 150%; PADDING-TOP: 0px; FONT-FAMILY: Arial, Verdana, Geneva, Helvetica, sans-serif
+}
+A {
+	COLOR: #0000cc; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #0000cc; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #000099; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #0000cc; TEXT-DECORATION: underline
+}
+INPUT {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 95%; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; FONT-FAMILY: Arial, Verdana, Geneva, Helvetica, sans-serif
+}
+TEXTAREA {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 95%; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; FONT-FAMILY: Arial, Verdana, Geneva, Helvetica, sans-serif
+}
+SELECT {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 95%; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; FONT-FAMILY: Arial, Verdana, Geneva, Helvetica, sans-serif
+}
+LABEL {
+	FONT-SIZE: 80%
+}
+P {
+	FONT-SIZE: 100%
+}
+DIV {
+	FONT-SIZE: 100%
+}
+BLOCKQUOTE {
+	FONT-SIZE: 100%
+}
+FONT {
+	FONT-SIZE: 100%
+}
+SUB {
+	FONT-SIZE: 65%
+}
+SUP {
+	FONT-SIZE: 65%
+}
+TABLE {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-COLLAPSE: collapse; BORDER-RIGHT-WIDTH: 0px
+}
+TBODY {
+	FONT-SIZE: 100%
+}
+TR {
+	FONT-SIZE: 100%
+}
+TD {
+	FONT-SIZE: 100%
+}
+TH {
+	FONT-SIZE: 100%
+}
+UL {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: circle
+}
+OL {
+	LIST-STYLE-POSITION: outside
+}
+.hiLightLink {
+	FONT-SIZE: 85%; COLOR: #000000; FONT-FAMILY: Arial, Verdana, Geneva, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.hiLightLink:link {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+A.hiLightLink:active {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+A.hiLightLink:visited {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+A.hiLightLink:hover {
+	COLOR: #cc6600; TEXT-DECORATION: underline
+}
+.generalSmall {
+	FONT-SIZE: 85%
+}
+.instructions {
+	FONT-SIZE: 85%; COLOR: #999999
+}
+.noLink {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.noLink:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.noLink:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.noLink:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.noLink:hover {
+	COLOR: #000000; TEXT-DECORATION: none
+}
