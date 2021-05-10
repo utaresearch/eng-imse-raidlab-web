@@ -5,7 +5,7 @@
       <a href="index.php" class="logo"><img src="img/logos/raid_main_logo.png"></a>
     </div>
     <div class="col-lg-6">
-      <a href="https://www.uta.edu/uta/" class="site"><img src="img/logos/uta_main_logo.png"></a>
+      <a href="https://www.uta.edu/" class="site"><img src="img/logos/uta_main_logo.png"></a>
     </div>
   </div>
 </div>
