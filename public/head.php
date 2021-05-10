@@ -6,7 +6,7 @@
         <title>UTA Raid Labs</title>
         <link rel="stylesheet" type="text/css" href="superfish/css/superfish.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-		</script>
+	
 		<script type="text/javascript" src="superfish/js/superfish.js" ></script>
 		<script type="text/javascript" src="bootstrap/assets/javascripts/bootstrap.min.js" ></script>
 		<script type="text/javascript" src="js/jquery.matchHeight-min.js" ></script>
