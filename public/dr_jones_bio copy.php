@@ -2,9 +2,8 @@
 <?php include 'header.php'; ?>
 <body>
     <div class="container">
-        <div style= "Text-align: center">
+        <div class="jumbotron">
             <h1>Dr. Erick C. Jones</h1>
-			<br>
         </div>
     <div class= "col-lg-12 about-group">
 	                <div class="row">

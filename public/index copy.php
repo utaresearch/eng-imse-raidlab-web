@@ -1,8 +1,6 @@
 <?php include 'head.php'; ?>
 <?php include 'header.php'; ?>
 <body>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <div class="container slideshow">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -47,51 +45,36 @@
 
   </div>
 </div>
-
 <div class="container marketing">
     <div class="row">
         <div class="col-lg-4">
             <div class="panel-grid">
              <!--  <img class="img-circle" src="img/transparent-arrow.png" alt="getnewimage" width="140" height="140"> -->
               <h2 class="blue">Projects and Services</h2>
-              <p>View the current(ongoing) and past projects and experiments at the Radio Frequency and Auto Identification Labs.</p>
-              <a href="projects.php"><button type="button" class="btn btn-primary">View Details »</button></a>
-              <!-- <p><a class="btn btn-default" href="projects.php" role="button">View details »</a></p> -->
+              <p>View the projects and experiments currently underway at the Radio Frequency and Auto Identification Labs.</p>
+              <p><a class="btn btn-default" href="projects.php" role="button">View details »</a></p>
             </div>
         </div>
         <div class="col-lg-4">
              <div class="panel-grid">
               <!-- <img class="img-circle" src="img/transparent-arrow.png" alt="getnewimage" width="140" height="140"> -->
-              <h2 class="blue">Publications</h2>
-              <p>Browse past and present publications from the Radio Frequency and Auto Identification Labs.</p><br>
-              <a href="publications.php"><button type="button" class="btn btn-primary">View Details »</button></a>
+              <h2 class="green">Publications</h2>
+              <p>Browse past and present publications from the Radio Frequency and Auto Identification Labs.</p>
+              <p><a class="btn btn-default" href="publications.php" role="button">View details »</a></p>
             </div>
         </div>
         <div class="col-lg-4">
              <div class="panel-grid">
               <!-- <img class="img-circle" src="img/transparent-arrow.png" alt="getnewimage" width="140" height="140"> -->
-              <h2 class="blue">Patents &amp; Products</h2>
-              <p>Learn about patents and products from the Radio Frequency and Auto Identification Labs.</p><br>
-              <a href="patents_products.php"><button type="button" class="btn btn-primary">View Details »</button></a>
+              <h2 class="orange">Patents &amp; Products</h2>
+              <p>Learn about patents and products from the Radio Frequency and Auto Identification Labs.</p>
+              <p><a class="btn btn-default" href="projects.php" role="button">View details »</a></p>
             </div>
         </div>
 
     </div>
-
-
-  <div id="block_container" style="display: flex;justify-content: center;" >
-    <div id="bloc1" style= "text-align: center">
-                <div class="blog-motto">
-                  <h1 class="blog-title dark-orange">Mission</h1>
-                  <p class="lead blog-description">Providing integrated solutions in logistics and other data driven environments through automatic data capture, real world prototypes, and analysis.</p>
-                  <h1 class="blog-title dark-orange">Vision</h1><p class="lead blog-description">Ten years from now, practically everything will be tracked wirelessly. In an effort to support the marriage of industries' supply chain needs for automatic identification technology with academia's theoretical applications, <a href="http://www.linkedin.com/pub/erick-jones/11/927/628">Dr. Erick C. Jones</a> has created an industry / academia collaboration. This facility's purpose is to support project initiatives like Radio Frequency Identification (RFID), Logistics (Supply Chain Engineering), Manufacturing (Six-Sigma and Lean initiatives), and Information Technology (ERP, WMS). The facility's goal is to enhance the Industrial Engineering field by utilizing some of research methodologies to provide solutions in the areas of RFID, Supply Chain Logistics, and Engineering Management. <a href="faculty.php">Meet the rest of our team &raquo;</a></p>
-                </div>
-      </div> 
-      </br>
-    <div id="bloc2"><img style="width: 400px;" src="img/faculty/Dr_Eric_Jones.jpg"></div>
-  </div>
-
-<!-- <div class="container content">
+</div>
+<div class="container content">
     <div class="col-sm-9 blog-main">
         <div class="blog-header">
           <div class="blog-bg">
@@ -104,13 +87,11 @@
             </div>
           </div>
         </div>
-    </div> -->
+    </div>
     <div class="col-sm-3 blog-sidebar">
         <div class="sidebar-module sidebar-module-inset">
 		<div class="container content">
-    
-      
-            <!-- <div class="recent-news">
+            <div class="recent-news">
                             <h4>News from the lab:</h4>
                             <a class="twitter-timeline" data-lang="en" data-theme="light" href="https://twitter.com/RAID_Labs?ref_src=twsrc%5Etfw">Tweets by RAID_Labs</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
@@ -125,12 +106,9 @@
                             </script>
                             <div class="fb-page" data-href="https://www.facebook.com/RAID-lab-UTA-116406855666743/" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/RAID-lab-UTA-116406855666743/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RAID-lab-UTA-116406855666743/">RAID lab UTA</a></blockquote>
                         </div>
-                    </div> -->
+                    </div>
 					</div>
           </div>
     </div>
 </div>
-</div>
-
-
 <?php include 'footer.php'; ?>

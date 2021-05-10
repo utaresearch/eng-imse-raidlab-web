@@ -2,8 +2,8 @@
 <?php include 'header.php'; ?>
 <body>
     <div class="container">
-        <div class="jumbotron" style="background-color: white";>
-            <h1 style="text-align:center; padding: 20px; border-width: 5px; border-style: solid;">About RAID Labs!</h1>
+        <div class="jumbotron">
+            <h1>About RAID Labs!</h1>
         </div>
     <div class= "col-lg-12 about-group">
                 <div class="row">

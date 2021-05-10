@@ -2,8 +2,8 @@
 <?php include 'header.php'; ?>
 <body>
     <div class="container">
-        <div class="jumbotron" style="background-color: white";>
-            <h1 style="padding: 20px; border-width: 5px; border-style: solid;">Publications</h1>
+        <div class="jumbotron">
+            <h1>Publications</h1>
         </div>
         <div id="tabs">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 publications-tab-group">
