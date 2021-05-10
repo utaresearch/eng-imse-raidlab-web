@@ -79,7 +79,6 @@ html {
 <?php include "SimpleXLSX.php";?>
 
 <?php 
-echo 'hello';
 if ( $xlsx = SimpleXLSX::parse('graduates.xlsx') ) {
 // echo '<table><tbody>';
 $i = 0;
