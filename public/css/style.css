@@ -26,6 +26,10 @@ html {
 body {
   margin: 0; }
 
+.block_container.bloc2 {
+  border-radius: 100px;
+}
+
 article,
 aside,
 details,
@@ -1096,10 +1100,10 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #337ab7;
+  color: #0764b6;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #23527c;
+    color: #09375f;
     text-decoration: underline; }
   a:focus {
     outline: 5px auto -webkit-focus-ring-color;
@@ -5908,7 +5912,7 @@ p {
 
 .blog-description {
   font-size: 20px;
-  color: #F8F8F8;
+  color: #0c0b0b;
   text-align: justify;
   text-align-last: center;
   /*background-color: rgba(0,0,0,0.1);*/ }
@@ -5934,7 +5938,7 @@ p {
   margin-bottom: 20px;*/ }
 
 .blog-motto {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(252, 252, 252, 0.5);
   border-radius: 5px; }
 
 .sidebar-module-inset {
@@ -6079,7 +6083,7 @@ div.gs-grid {
   margin: auto; }
 
 .blue {
-  color: #00a9ff; }
+  color: #006699; }
 
 .orange-red {
   color: #A80000; }
@@ -6091,7 +6095,7 @@ div.gs-grid {
   color: #fabb0c; }
 
 .dark-orange {
-  color: #dd550c; }
+  color: #b84203; }
 
 .faculty-group, .student-group {
   border-bottom: 1px dotted #dadada;
@@ -6157,7 +6161,7 @@ div.gs-grid {
   min-width: 0; }
 
 .sf-menu a {
-  color: #FFF;
+  color: #000;
   border: none;
   text-decoration: none;
   text-transform: uppercase;
