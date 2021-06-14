@@ -377,7 +377,7 @@ class Spreadsheet_Excel_Reader
 
         return sizeof($this->sheets) > 0;
     */
-
+        
         $res = $this->_ole->read($sFileName);
 
         // oops, something goes wrong (Darko Miljanovic)
@@ -392,7 +392,7 @@ class Spreadsheet_Excel_Reader
 
         $this->data = $this->_ole->getWorkBook();
 
-
+        
         /*
         $res = $this->_ole->read($sFileName);
 

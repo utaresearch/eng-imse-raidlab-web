@@ -6,7 +6,7 @@
             <h1 style="padding: 20px; border-width: 5px; border-style: solid;">Sponsors</h1>
         </div>
         	<div class= "col-lg-12 sponsors-group">
-        		<img class="sponsor-pic" img src="img/sponsors/metalcraft_logo.png" width="250px" height="70px"/>
+        		<img class="sponsor-pic" img src="img/sponsors/metalcraft_logo.png" width="250px" height="70px"/ alt="Metal Craft">
         		<div class="row">
 	        		<div class="col-md-3">
 	        			<!-- <img class="sponsors-ad" id="slider1" src="http://cdn.idplate.com/images/home_page/RFID-universal-hard-tag-toolbox.jpg"/> -->
@@ -17,7 +17,7 @@
 	        	</div>
         	</div>
         	<div class= "col-lg-12 sponsors-group">
-        		<img class="sponsor-pic" img src="img/sponsors/HID_logo.png" width="250px" height="70px"/>
+        		<img class="sponsor-pic" img src="img/sponsors/HID_logo.png" width="250px" height="70px" alt="HID"/>
         		 <div class="row">
 	        		<div class="col-md-3">
 	        			<img class="sponsors-ad" id="slider2" src="https://www.hidglobal.com/sites/default/files/asset-tracking-identification-technologies-banner.jpg"/>
@@ -28,7 +28,7 @@
 	        	</div>
         	</div>
         	<div class= "col-lg-12 sponsors-group">
-        		<img class="sponsor-pic" img src="img/sponsors/alien_logo.png" width="150px" height="90px"/>
+        		<img class="sponsor-pic" img src="img/sponsors/alien_logo.png" width="150px" height="90px" alt="Alien Technology"/>
         		 <div class="row">
 	        		<div class="col-md-3">
 	        			<img class="sponsors-ad" id="slider3" src="https://www.alientechnology.com/wp-content/uploads/product-banner.jpg"/>
@@ -40,7 +40,7 @@
 	        	</div>
         	</div>
         	<div class= "col-lg-12 sponsors-group">
-        		<img class="sponsor-pic" img src="https://static.wixstatic.com/media/75bf9b_c69adc47765b4899881c0f29e61e073d~mv2.png/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01/75bf9b_c69adc47765b4899881c0f29e61e073d~mv2.webp" width="150px" height="90px"/>
+        		<img class="sponsor-pic" img src="https://static.wixstatic.com/media/75bf9b_c69adc47765b4899881c0f29e61e073d~mv2.png/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01/75bf9b_c69adc47765b4899881c0f29e61e073d~mv2.webp" width="150px" height="90px" alt="PWD Group"/>
         		 <div class="row">
         		 	<div class="col-md-3">
 	        		</div>
@@ -51,7 +51,7 @@
 	        	</div>
         	</div>
         	<div class= "col-lg-12 sponsors-group">
-        		<img class="sponsor-pic" img src="img/sponsors/Sensthys.png" width="250px" height="70px"/>
+        		<img class="sponsor-pic" img src="img/sponsors/Sensthys.png" width="250px" height="70px" alt="sensethys"/>
         		 <div class="row">
         		 	<div class="col-md-3">
 	        		</div>

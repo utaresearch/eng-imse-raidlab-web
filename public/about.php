@@ -45,10 +45,10 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="about-logo" img src="img/labs/rfid_facility.jpg"/>
+                        <img class="about-logo" img src="img/labs/rfid_facility.jpg" alt="rfid facility"/>
                     </div>
                     <div class="col-md-6">
-                        <img class="about-logo" img src="img/labs/labs1.png"/>
+                        <img class="about-logo" img src="img/labs/labs1.png" alt="lab picture 1"/>
                     </div>
                 </div>
                 <div class="row">
@@ -57,10 +57,10 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="about-logo" img src="img/labs/labs2.png"/>
+                        <img class="about-logo" img src="img/labs/labs2.png" alt="lab picture 2"/>
                     </div>
                     <div class="col-md-6">
-                        <img class="about-logo" img src="img/labs/healthcare_facility.jpg"/>
+                        <img class="about-logo" img src="img/labs/healthcare_facility.jpg" alt="healthcare facility"/>
                     </div>
                 </div>
             </div>

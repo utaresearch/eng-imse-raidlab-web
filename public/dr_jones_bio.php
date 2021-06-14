@@ -9,7 +9,7 @@
     <div class= "col-lg-12 about-group">
 	                <div class="row">
                     <div class="col-md-6">
-                        <img class="bio-logo" width="70%" height="auto" img src="img/faculty/Dr_Eric_Jones.jpg"/>
+                        <img class="bio-logo" width="70%" height="auto" img src="img/faculty/Dr_Eric_Jones.jpg" alt="Dr. Eric Jones"/>
                     </div>
 				
 					<p align="justify" class="about-intro"> <font size="4"> Dr. Erick C. Jones is George and Elizabeth Pickett Endowed Professor and Associate Dean for Graduate Studies in the College of Engineering at the University of Texas at Arlington (UTA). Jones joined UTA in 2010 after eight years at the University of Nebraska – Lincoln, where he rose to the rank of Associate Professor with Tenure.  He is the George and Elizabeth Pickett Endowed Professor of Industrial, Manufacturing and Systems Engineering and served as the Deputy Director of the UT Arlington Homeland Security focused University Center SAVANT and Director of the (RFID & Auto-ID) RAID labs at UTA.</font></p>

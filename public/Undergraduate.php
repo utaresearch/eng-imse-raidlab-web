@@ -56,7 +56,7 @@ html {
 }
 
 .title {
-  color: grey;
+  color: #000;
 }
 
 .button {
