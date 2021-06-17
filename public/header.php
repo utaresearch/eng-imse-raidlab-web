@@ -46,7 +46,7 @@
             </ul>
           </li>
           <li>
-            <a style="background: none;" style="background: none;">Projects</a>
+            <a style="background: none;" style="background: none;" href="#">Projects</a>
             <ul>
             <li><a style="background: none;" href="projects.php">Spring 2021 Projects</a></li>
             <li><a style="background: none;" href="prev_projects.php">Previous Projects</a></li>
