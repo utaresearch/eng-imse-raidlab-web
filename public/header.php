@@ -2,10 +2,10 @@
 <div style="width:100%;" class="header">
   <div class="row">
     <div class="col-lg-6">
-      <a href="index.php" class="logo"><img src="img/logos/raid_main_logo.png"></a>
+      <a href="index.php" class="logo"><img src="img/logos/raid_main_logo.png" alt="Raid Lab Logo"></a>
     </div>
     <div class="col-lg-6">
-      <a href="https://www.uta.edu/" class="site"><img src="img/logos/uta_main_logo.png"></a>
+      <a href="https://www.uta.edu/" class="site"><img src="img/logos/uta_main_logo.png" alt="UTA Logo"></a>
     </div>
   </div>
 </div>

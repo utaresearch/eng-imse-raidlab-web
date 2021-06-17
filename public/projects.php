@@ -41,10 +41,10 @@
             </div></a>
         </div>
         <div class="col-lg-3 col-md-6">
-            <div class="feature_item">
+            <a><div class="feature_item">
                 <img src="img/services/5s.png" alt="">
                 <h4>5S project to reorganize and rearrange the RAID Lab</h4>
-                <p>The goal of 5S is to create a clean, uncluttered environment that allows people to do their jobs without wasting time, while also lowering the risk of injury. The five words in 5S represent the five steps to accomplish this goal.</p>
+                <p>The goal of 5S is to create a clean, uncluttered environment that allows people to do their jobs without wasting time, while also lowering the risk of injury. The five words in 5S represent the five steps to accomplish this goal.</p></a>
             </div>
         </div>
         <!-- <div class="col-lg-3 col-md-6">
