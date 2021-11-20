@@ -56,7 +56,7 @@
           <!--  <img class="img-circle" src="img/transparent-arrow.png" alt="getnewimage" width="140" height="140"> -->
           <a href="projects.php">
             <h2 class="blue">Projects and Services</h2>
-            <p>View the current(ongoing) and past projects and experiments at the Radio Frequency and Auto Identification Labs.</p>
+            <p>View the current(ongoing) and past projects and experiments at the RFID AI and Data Analysis Labs.</p>
             <!-- <p><a class="btn btn-default" href="projects.php" role="button">View details »</a></p> -->
           </a>
         </div>
@@ -66,7 +66,7 @@
           <!-- <img class="img-circle" src="img/transparent-arrow.png" alt="getnewimage" width="140" height="140"> -->
           <a href="publications.php">
             <h2 class="blue">Publications</h2>
-          <p>Browse past and present publications from the Radio Frequency and Auto Identification Labs.</p><br>
+          <p>Browse past and present publications from the RFID AI and Data Analysis Labs.</p><br>
           </a>
         </div>
       </div>
@@ -75,7 +75,7 @@
           <div class="panel-grid">
             <!-- <img class="img-circle" src="img/transparent-arrow.png" alt="getnewimage" width="140" height="140"> -->
             <h2 class="blue">Patents &amp; Products</h2>
-            <p>Learn about patents and products from the Radio Frequency and Auto Identification Labs.</p><br>
+            <p>Learn about patents and products from the RFID AI and Data Analysis Labs.</p><br>
         </a>
       </div>
     </div>
@@ -93,7 +93,7 @@
       </div>
     </div>
     </br>
-    <div id="bloc2"><img style="width: 400px;" src="img/faculty/Dr_Eric_Jones.jpg" alt="Dr Eric Jones"></div>
+    <!-- <div id="bloc2"><img style="width: 200px;" src="img/faculty/Dr_Eric_Jones.jpg" alt="Dr Eric Jones"></div> -->
   </div>
 
   <!-- <div class="container content">
