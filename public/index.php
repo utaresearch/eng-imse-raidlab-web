@@ -56,7 +56,7 @@
           <!--  <img class="img-circle" src="img/transparent-arrow.png" alt="getnewimage" width="140" height="140"> -->
           <a href="projects.php">
             <h2 class="blue">Projects and Services</h2>
-            <p>View the current(ongoing) and past projects and experiments at the Radio Frequency and Auto Identification Labs.</p>
+            <p>View the current(ongoing) and past projects and experiments at the RFID, AI and Data Science Labs.</p>
             <!-- <p><a class="btn btn-default" href="projects.php" role="button">View details »</a></p> -->
           </a>
         </div>
@@ -66,7 +66,7 @@
           <!-- <img class="img-circle" src="img/transparent-arrow.png" alt="getnewimage" width="140" height="140"> -->
           <a href="publications.php">
             <h2 class="blue">Publications</h2>
-          <p>Browse past and present publications from the Radio Frequency and Auto Identification Labs.</p><br>
+          <p>Browse past and present publications from the RFID, AI and Data Science Labs.</p><br>
           </a>
         </div>
       </div>
@@ -75,7 +75,7 @@
           <div class="panel-grid">
             <!-- <img class="img-circle" src="img/transparent-arrow.png" alt="getnewimage" width="140" height="140"> -->
             <h2 class="blue">Patents &amp; Products</h2>
-            <p>Learn about patents and products from the Radio Frequency and Auto Identification Labs.</p><br>
+            <p>Learn about patents and products from the RFID, AI and Data Science Labs.</p><br>
         </a>
       </div>
     </div>
@@ -89,7 +89,7 @@
         <h1 class="blog-title dark-orange">Mission</h1>
         <p class="lead blog-description">Providing integrated solutions in logistics and other data driven environments through automatic data capture, real world prototypes, and analysis.</p>
         <h1 class="blog-title dark-orange">Vision</h1>
-        <p class="lead blog-description">Ten years from now, practically everything will be tracked wirelessly. In an effort to support the marriage of industries' supply chain needs for automatic identification technology with academia's theoretical applications, <a href="http://www.linkedin.com/pub/erick-jones/11/927/628">Dr. Erick C. Jones</a> has created an industry / academia collaboration. This facility's purpose is to support project initiatives like Radio Frequency Identification (RFID), Logistics (Supply Chain Engineering), Manufacturing (Six-Sigma and Lean initiatives), and Information Technology (ERP, WMS). The facility's goal is to enhance the Industrial Engineering field by utilizing some of research methodologies to provide solutions in the areas of RFID, Supply Chain Logistics, and Engineering Management. <a href="faculty.php">Meet the rest of our team &raquo;</a></p>
+        <p class="lead blog-description">Ten years from now, practically everything will be tracked wirelessly. In an effort to support the marriage of industries' supply chain needs for automatic identification technology with academia's theoretical applications, <a href="http://www.linkedin.com/pub/erick-jones/11/927/628">Dr. Erick C. Jones</a> has created an industry / academia collaboration. This facility's purpose is to support project initiatives like Radio Frequency Identification (RFID), Artificial Intelligence, Data Science, Logistics (Supply Chain Engineering), Manufacturing (Six-Sigma and Lean initiatives), and Information Technology (ERP, WMS). The facility's goal is to enhance the Industrial Engineering field by utilizing some of research methodologies to provide solutions in the areas of RFID, Supply Chain Logistics, and Engineering Management. <a href="faculty.php">Meet the rest of our team &raquo;</a></p>
       </div>
     </div>
     </br>
