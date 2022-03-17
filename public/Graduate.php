@@ -96,6 +96,7 @@ if ( $xlsx = SimpleXLSX::parse('data/current_graduates.xlsx') ) {
               <p class="title">'.$elt[2].'</p>
               <p class="title">'.$elt[3].'</p>
               <p><a href='.$elt[5].'>LinkedIn</a></p>
+              <p><a href='.$elt[8].'>'.$elt[9].'  </a></p>
               <p><a href="mailto:'.$elt[6].'" <button class="button">Contact</button></a></p>
             </div>
           </div>
