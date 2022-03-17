@@ -12,7 +12,7 @@ $data->setOutputEncoding('CP1251');
  
 // read spreadsheet data
 //$excel->read('img/graduate_students.xlsx');
-$data->read('img/doctoral_students.xls');
+$data->read('data/doctoral_students.xls');
 error_reporting(E_ALL ^ E_NOTICE);
 /*Initializing some columns values to fix a name */
 $col_name=2;$col_position=3;$col_major=4;$col_bg=5;$col_linked=6;$col_email=7;$col_img=8;$col_year=9;
