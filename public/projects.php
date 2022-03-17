@@ -24,7 +24,39 @@
         </div>
     </div>
     <div class="row feature_inner">
-        <div class="col-lg-3 col-md-6">
+
+        <?php include "SimpleXLSX.php";?>
+
+            <!-- Information about project from excel file -->
+            <?php 
+            if ( $xlsx = SimpleXLSX::parse('data/spring2021_projects.xlsx') ) {
+                $i = 0;
+                    foreach ($xlsx->rows() as $elt){
+                    if ($i == 0) {
+                        echo '<div class="row">';
+                    } else {
+                        echo '<div class="col-lg-6 col-md-6">
+                            <a href="'.$elt[2].'">
+                            <div class="feature_item"><img src="'.$elt[5].'" alt="">
+                                <h4>'.$elt[1].'</h4></br>
+                                <p>'.$elt[3].'</p></br>
+                                <p>'.$elt[4].'</p></div>
+                            </a>
+                            </div>';
+                    }   
+                $i = $i + 1;   
+                }
+                echo '</div>';
+                } else {
+                    echo SimpleXLSX::parseError();
+                }
+            ?>
+
+
+
+<!-- below is the static page above one uses excel and creates contents dynamically from excel file -->
+
+        <!-- <div class="col-lg-6 col-md-6">
             <a href="AI.php"><div class="feature_item">
                 <img src="img/services/vid.png" alt="">
                 <h4>AI-Enabled Optimization of the COVID-19 Therapeutics Supply Chain</h4>
@@ -33,29 +65,27 @@
             </div></a>
         </div>
         
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-6 col-md-6">
         <a href="Metal.php"> <div class="feature_item">
                 <img src="img/services/rfid.png" alt="">
                 <h4>Re-design Metalcraft RFID inlay for improved endurance, operating range, and durability</h4>
                 <p>Due to increasing competitive pressure worldwide, Metalcraft wants to re-design of the RFID inlay with new and improved specifications. To do so, Design for Six-Sigma in Research methodology (DFSSR) is used to ensure product with highest quality. </p>
             </div></a>
         </div>
-        <div class="col-lg-3 col-md-6">
-            <a><div class="feature_item">
-                <img src="img/services/5s.png" alt="">
-                <h4>5S project to reorganize and rearrange the RAID Lab</h4>
-                <p>The goal of 5S is to create a clean, uncluttered environment that allows people to do their jobs without wasting time, while also lowering the risk of injury. The five words in 5S represent the five steps to accomplish this goal.</p></a>
-            </div>
-        </div>
-        <!-- <div class="col-lg-3 col-md-6">
-        <a href="TSC.php"><div class="feature_item">
-                <img src="img/services/money.jpg" alt="">
-                <h4>GRFP ERC Top Scientists</h4>
+
+        <div class="col-lg-6 col-md-6">
+        <a href="TSC.php">
+            <div class="feature_item">
+                <img src="img/services/nsf_logo.jpg" alt="">
+                <h4>National Science Foundation (NSF) Award Abstract #2028343</h4>
                 <br>
-                <p>This project capitalizes on work with top scientists conducting research at select Engineering Research Centers (ERCs). The NSF ERC program is the NSFs largest investment for top research and its infrastructure of diversity and inclusion directors supports this programs ability to gain access to these scientists. </p>
+                <p>Understanding the Impact of Graduate Fellowships on Broadening Participation in GEO</p>
             </div></a>
-        </div> -->
-    </div>
+        </div>
+    </div> -->
+
+
+
 </div>
 </section>
 
