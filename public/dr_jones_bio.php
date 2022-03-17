@@ -29,6 +29,9 @@
 					<a href="https://nam05.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.uta.edu%2Frfid%2Ffaculty.php&amp;data=02%7C01%7Cdhruvi.rajput%40mavs.uta.edu%7Ca257bb19b66e4d90677608d76d39c8d4%7C5cdc5b43d7be4caa8173729e3b0a62d9%7C0%7C0%7C637097967266743417&amp;sdata=mXDdAEkTljwWkdY2Lg%2Fo7IZoP0pqbKDX2WbEksjY9yM%3D&amp;reserved=0"><i><font size="6">Faculty & Collaborators </font></i></a>
 					
 					<br/>
+					<a href="https://en.wikipedia.org/wiki/Erick_Jones"><i><font size="6">Dr. Erick Jones Wikipedia </font></i></a>
+				
+					<br/>
 					<!-- <h3>Youtube Links</h3> -->
 					
 
