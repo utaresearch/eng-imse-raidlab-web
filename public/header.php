@@ -38,6 +38,7 @@
             <a style="background: none;" href="#">Team</a>
             <ul>
               <li><a style="background: none;" href="faculty.php">Faculty</a></li>
+              <li><a style="background: none;" href="executive_team.php">Executive Team</a></li>
               <li role="separator" class="divider"></li>
               <li class="dropdown-header">Research Crew</li>
               <li><a style="background: none;" href="students_doctoral.php">Doctoral Students</a></li>
