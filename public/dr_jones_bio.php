@@ -3,7 +3,7 @@
 <body>
     <div class="container">
         <div style= "Text-align: center">
-            <h1>Dr. Erick C. Jones</h1>
+            <h1>Dr.Erick C. Jones Jr.</h1>
 			<br>
         </div>
     <div class= "col-lg-12 about-group">
