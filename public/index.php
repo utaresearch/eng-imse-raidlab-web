@@ -87,13 +87,13 @@
     <div id="bloc1" style="text-align: center">
       <div class="blog-motto">
         <h1 class="blog-title dark-orange">Mission</h1>
-        <p class="lead blog-description">Providing integrated solutions in logistics and other data driven environments through automatic data capture, real world prototypes, and analysis.</p>
+        <p class="lead blog-description">Providing and integrated solutions in logistics and other data driven environments through automatic data capture, real world prototypes, and analysis.</p>
         <h1 class="blog-title dark-orange">Vision</h1>
-        <p class="lead blog-description">Ten years from now, practically everything will be tracked wirelessly. In an effort to support the marriage of industries' supply chain needs for automatic identification technology with academia's theoretical applications, <a href="http://www.linkedin.com/pub/erick-jones/11/927/628">Dr. Erick C. Jones</a> has created an industry / academia collaboration. This facility's purpose is to support project initiatives like Radio Frequency Identification (RFID), Logistics (Supply Chain Engineering), Manufacturing (Six-Sigma and Lean initiatives), and Information Technology (ERP, WMS). The facility's goal is to enhance the Industrial Engineering field by utilizing some of research methodologies to provide solutions in the areas of RFID, Supply Chain Logistics, and Engineering Management. <a href="faculty.php">Meet the rest of our team &raquo;</a></p>
+        <p class="lead blog-description">Ten years from now, practically everything will be tracked wirelessly. In an effort to support the marriage of industries' supply chain needs for automatic identification technology with academia's theoretical applications, <a href="http://www.linkedin.com/pub/erick-jones/11/927/628">Dr. Erick C. Jones</a> has created an industry / academia collaboration. This facility's purpose is to support project initiatives like Radio Frequency Identification (RFID), Logistics (Supply Chain Engineering), Manufacturing (Six-Sigma and Lean initiatives), and Information Technology (ERP, WMS). The facility's goal is to enhance the Industrial Engineering field by utilizing some of research methodologies to provide solutions in the areas of RFID, Supply Chain Logistics, and Engineering Management.<a href="faculty.php">Meet the rest of our team &raquo;</a></p>
       </div>
     </div>
     </br>
-    <div id="bloc2"><img style="width: 400px;" src="img/faculty/Dr_Eric_Jones.jpg" alt="Dr Eric Jones"></div>
+    <div id="bloc2"><img style="width: 400px;" src="img/faculty/Dr.Jones.Jr.jpg" alt="Dr.Erick C. Jones Jr."></div>
   </div>
 
   <!-- <div class="container content">
